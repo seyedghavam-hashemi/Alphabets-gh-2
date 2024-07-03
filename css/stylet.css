@@ -1,0 +1,108 @@
+* {
+ 
+  font-family: cursive, 'Roboto', sans-serif;
+  
+}
+
+:root {
+  --main-bg-color: rgba(52, 152, 219, 1);
+  --button-color: rgba(249, 105, 14, 1);
+  --font-color: #ffffff;
+}
+
+body{
+  background-color: rgb(30,55,111);
+}
+
+
+
+
+
+.h3-btn{
+  /*position: relative;
+  top: 11vh;*/
+  text-align: center;
+  
+}
+
+.dh3{
+  height: 6vh;
+  margin-bottom: 6vh;
+}
+
+.dh3-index2{ height: 3vh;
+  margin-bottom: 3vh;}
+
+.btns-parent{
+  width: 100%;
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.btns{
+  /*position: relative;*/
+  /*top: 13vh;*/
+  z-index: 1;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.btns-2{
+  
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+  
+}
+
+
+
+
+.btn{
+  margin-right: 0%;
+  color: var(--font-color);
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#verb{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+.btn{
+  position: relative;
+  background: var(--button-color);
+  border: none;
+  color: var(--font-color);
+  padding: 5px 16px;
+  font-size: 3vh;
+  box-shadow: -4px 4px 0 hsl(16, 100%, 30%);
+  outline: none;
+}
+
+.btn:hover{
+  background: hsl(16, 100%, 30%);
+}
+
+.btn:active{
+  background: hsl(16, 100%, 40%);
+  top: 3px;
+}
+
+
+
+

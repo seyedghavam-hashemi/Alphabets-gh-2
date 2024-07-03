@@ -1,0 +1,119 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+    height: 100vh;
+    width:100%;
+}
+
+.margin-lr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*HEADER*/
+.sec-1 {
+    width: 100%;
+    height:15vh;
+    display: table;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+.sec1 > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#logo-photo{
+    width:15%;
+    height:15vh;
+    margin-top:10px;
+
+
+}
+
+/*QUESTION SENTENCE*/
+.sec-2 {
+    width: 100%;
+    height:3vh;
+    display: table;
+    text-align: center;
+}
+.sec2 > div {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.img-in-sentence{
+
+}
+
+.img-in-sentence{
+    padding-top: 100px;
+}
+
+
+#p-per{
+    line-height: 3vh;
+}
+
+/*QUESTION ANSWERS*/
+.sec-3 {
+    width: 100%;
+    height:12vh;
+    display: table;
+    text-align: center;
+}
+.sec3 > ul {
+    display: table-cell;
+    vertical-align: middle;
+  
+}
+
+.answer-bold{
+    margin-left: 5px;
+}
+.en-text{}
+
+.per-text{
+    
+}
+.answer-li{
+    list-style-type: none;
+    
+}
+
+
+@media(max-width:568px){
+    .sec-1 {
+        width: 100%;
+        height:8vh;
+        display: table;
+        text-align: center;
+    
+    }
+    #logo-photo{
+        margin-top:10px;
+
+        max-width:10%;
+       max-height:6vh;
+    
+    }
+#img-in-titr, #img-in-sentence {
+    max-width:25px;
+    max-width: 25px;
+}
+
+}

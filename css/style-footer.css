@@ -1,0 +1,88 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+
+footer{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    top: 2vh;
+    margin-right: 0%;
+    align-items: center;
+}
+.mySelfDiv{
+    width: 100%;
+    text-align: center;
+
+}
+.mySelf{
+    margin-right: 0%;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 2vh;
+    color:#000;
+  
+
+}
+
+.myUni{
+    margin-right: 0%;
+    margin-top: 5px;
+    font-size: 2vh;
+    font-weight: bold;
+    line-height: 2vh;
+    color:#000;
+}
+
+
+.footer-content {
+    width: 100%;
+    position: relative;
+}
+#footer_contacts{
+    width: 100%;
+    text-align:center;
+    margin-right: 0%;
+    margin-top: 1vh;
+    }
+.parag-f {
+    font-family: "Vazir";
+    font-weight: bolder;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+    font-size: 3vh;
+    line-height: 3vh;
+    }
+    .parag-f-email {
+        font-family: "Vazir";
+        
+        font-style: normal;
+        color:rgb(0, 0, 0);
+        font-size: 2.75vh;
+        line-height: 3vh;
+        }
+    .parag-li {
+        font-family: "Vazir";
+        font-weight: bolder;
+        font-style: normal;
+        color:rgb(0, 0, 0);
+        font-size: 3vh;
+        line-height: 3vh;
+        display: inline;
+        }
+.footer-link {
+    text-decoration: none;
+}
+
+.ul1 li{
+    display: inline;
+    text-decoration: none;
+}
+.ul2 li{
+    display: inline;
+    text-decoration: none;
+}
+.gate-size{
+    width:200px;
+    height:200px;
+    margin-top: 25px;
+
+}

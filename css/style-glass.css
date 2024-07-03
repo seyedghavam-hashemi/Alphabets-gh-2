@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:1.8em;
+    color:#666;
+}
+
+.mainparent{
+    position: relative;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/index-bg.jpg');
+    min-height: 100%;
+    /*
+    fixed=parallax
+    scroll=normal
+    */
+}
+
+
+
+
+
+.glassparent{
+    position: absolute;
+    top:50%;
+    width:90%;
+    margin-right: 5%;
+    text-align: justify;
+    color:#000;
+    font-size: 3vh;
+    background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 100%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-blend-mode: ;
+  box-shadow:
+    inset 0px 5px 5px 0px rgba(255, 255, 255, 0.1),
+    inset 0px -5px 5px 0px rgba(254, 150, 150, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+    
+
+}
+.glassparent .glass{
+   
+    color:#fff;
+    padding:5px;
+    font-weight: 900;
+
+}
+
+.start{
+
+}
+
+
+
+/*.ptext .border .trans{
+    background-color:transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  
+*/
